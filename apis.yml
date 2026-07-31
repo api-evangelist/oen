@@ -1,7 +1,15 @@
 aid: oen
 name: OEN
-description: OEN is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Oen (應援科技) is a Taiwan-based fintech company operating an integrated
+  payments and CRM cloud platform. It provides multi-channel payment processing (credit
+  cards, convenience-store payments, bank transfers, and subscriptions), electronic
+  invoicing, and a supporter-relationship CRM covering event and ticketing management,
+  member and volunteer management, merchandise/reward redemption, and email/SMS communications.
+  The platform serves nonprofits, political organizations, educational institutions,
+  entertainment events, and commercial merchants, with more than 600 organizations
+  and individuals using Oen. The company runs an API Gateway and mobile-payment surface,
+  a public responsible-disclosure and bug-bounty program, and displays PCI DSS Level 1,
+  ISO 27001, and ISO 27701 trust badges.'
 url: https://raw.githubusercontent.com/api-evangelist/oen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://oen.tw/favicon.ico
 tags:
 - Company
+- Payments
+- FinTech
+- CRM
+- Invoicing
+- Taiwan
+- Nonprofit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://oen.tw
+- type: Support
+  url: https://oen.tw/faq
+- type: TermsOfService
+  url: https://oen.tw/terms
+- type: PrivacyPolicy
+  url: https://oen.tw/privacy
+- type: Security
+  url: security/oen-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/oen-vulnerability-disclosure.yml
+- type: Compliance
+  url: security/oen-trust-center.yml
+- type: TrustCenter
+  url: security/oen-trust-center.yml
+- type: DomainSecurity
+  url: security/oen-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

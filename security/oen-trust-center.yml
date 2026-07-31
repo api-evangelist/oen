@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://oen.tw
+trust_center_url: https://oen.tw/inforscty
+note: Certifications displayed as trust badges on the Oen homepage (oen.tw). The
+  information-security policy page (/inforscty) describes controls (firewall, antivirus,
+  vulnerability scanning, penetration testing, data encryption) but does not restate
+  the certification credentials.
+certifications:
+- name: PCI DSS
+  level: Level 1
+  source: https://oen.tw
+- name: ISO/IEC 27001
+  source: https://oen.tw
+- name: ISO/IEC 27701
+  source: https://oen.tw
+controls:
+- firewall
+- antivirus
+- vulnerability scanning
+- penetration testing
+- data encryption
+security_policy_url: https://oen.tw/inforscty
